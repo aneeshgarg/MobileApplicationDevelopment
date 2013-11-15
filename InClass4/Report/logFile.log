@@ -1,0 +1,23 @@
+
+
+############ 2013/10/17 17:54:01 ############
+Reading Packages In Project [H:/Courses/MAD/Assignments/Class/4]
+
+Source File Name 	Line Number 	Method Identifier 	Required Permission 	Source File Path
+
+	AsyncApplicationsGet.java	0	java/net/URL->openConnection()		android.permission.INTERNET	H:/Courses/MAD/Assignments/Class/4/bin/classes/com/aneeshgarg/inclass4/utility/AsyncApplicationsGet.class
+
+	AsyncApplicationsGet.java	0	java/net/HttpURLConnection->connect()		android.permission.INTERNET				H:/Courses/MAD/Assignments/Class/4/bin/classes/com/aneeshgarg/inclass4/utility/AsyncApplicationsGet.class
+
+Adding Line Markers To Project InClass4[H:/Courses/MAD/Assignments/Class/4]
+
+Line Marker Added For:L/InClass4/src/com/aneeshgarg/inclass4/utility/AsyncApplicationsGet.java at Line Number(22)
+	android.permission.INTERNET			 is required for API Call java.net.HttpURLConnection.connect()
+
+Line Marker Added For:L/InClass4/src/com/aneeshgarg/inclass4/utility/AsyncApplicationsGet.java at Line Number(20)
+	android.permission.INTERNET is required for API Call java.net.URL.openConnection()
+
+ List of Missing Permissions: in AndroidManifest.xml
+[	android.permission.INTERNET, 	android.permission.INTERNET			]
+
+ No Redundant PermissionsmarkerHasBeenClickedmarkerHasBeenClickedClicked Marker: 	android.permission.INTERNET			 is required for API Call java.net.HttpURLConnection.connect()Resloved/Deleted Marker: android.permission.INTERNET			 is required for API Call java.net.HttpURLConnection.connect()Clicked Marker:android.permission.INTERNET			 is required for API Call java.net.HttpURLConnection.connect()Deleted Marker with matching PermissionDeleted Matching MarkersProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@9de41f3isError:true

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Discount Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="priceLabel">Listed price</string>
+    <string name="discountLabel">Discount %</string>
+    <string name="customLabel">Custom</string>
+    <string name="discountPer10">10%</string>
+    <string name="discountPer25">25%</string>
+    <string name="discountPer50">50%</string>
+    <string name="savedLabel">You Saved</string>
+    <string name="payLabel">You Pay</string>
+    <string name="zeroDollarLabel">$ 0.00</string>
+    <string name="exitButtonLabel">Exit</string>
+    <string name="priceTip">Enter Listed Price</string>
+    <string name="priceError">Enter List Price</string>
+</resources>

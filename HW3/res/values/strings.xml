@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Despicable Me Hunt</string>
+    <string name="action_settings">Settings</string>
+    <string name="findAllLabel">Find all</string>
+    <string name="findContentDesc">Image to find</string>
+    <string name="iconContentDesc">Image to compare</string>
+    <string name="resetButtonLabel">Reset Game</string>
+    <string name="exitButtonLabel">Exit</string>
+    <string name="title_activity_result">Result Activity</string>
+    <string name="backButtonLabel">Back</string>
+    <string name="resultContentDesc">This image tells you whether you win or loose.</string>
+    <string name="timeStringFormat">It took you %.1fs to finish the game.</string>
+    <string name="winGreeting">Congratulations !!!</string>
+    <string name="looseGreeting">What took you so long ?!</string>
+
+</resources>

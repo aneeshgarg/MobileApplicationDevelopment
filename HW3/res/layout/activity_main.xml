@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:text="@string/findAllLabel"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/focusImageView"
+            android:layout_width="@dimen/find_image_icon_width"
+            android:layout_height="@dimen/find_image_icon_height"
+            android:contentDescription="@string/findContentDesc"
+            android:src="@drawable/empty" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/gameTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+
+            <ImageView
+                android:layout_width="@dimen/click_image_icon_width"
+                android:layout_height="@dimen/click_image_icon_height"
+                android:contentDescription="@string/iconContentDesc"
+                android:src="@drawable/empty" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/resetButtonLabel" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/exitButtonLabel" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+
+
+############ 2013/10/17 17:08:45 ############
+Reading Packages In Project [H:/Courses/MAD/Assignments/Home/5/HW5]
+
+Source File Name 	Line Number 	Method Identifier 	Required Permission 	Source File Path
+
+	WebServiceTask.java	0	java/net/URL->openConnection()		android.permission.INTERNET	H:/Courses/MAD/Assignments/Home/5/HW5/bin/classes/com/aneeshgarg/unccphotos/utility/WebServiceTask.class
+
+	WebServiceTask.java	0	java/net/HttpURLConnection->connect()		android.permission.INTERNET				H:/Courses/MAD/Assignments/Home/5/HW5/bin/classes/com/aneeshgarg/unccphotos/utility/WebServiceTask.class
+
+Adding Line Markers To Project UNCCPhotos[H:/Courses/MAD/Assignments/Home/5/HW5]
+
+Line Marker Added For:L/UNCCPhotos/src/com/aneeshgarg/unccphotos/utility/WebServiceTask.java at Line Number(62)
+	android.permission.INTERNET			 is required for API Call java.net.HttpURLConnection.connect()
+
+Line Marker Added For:L/UNCCPhotos/src/com/aneeshgarg/unccphotos/utility/WebServiceTask.java at Line Number(60)
+	android.permission.INTERNET is required for API Call java.net.URL.openConnection()
+
+ List of Missing Permissions: in AndroidManifest.xml
+[	android.permission.INTERNET, 	android.permission.INTERNET			]
+
+ No Redundant PermissionsmarkerHasBeenClickedmarkerHasBeenClickedClicked Marker: 	android.permission.INTERNET is required for API Call java.net.URL.openConnection()Resloved/Deleted Marker: android.permission.INTERNET is required for API Call java.net.URL.openConnection()Clicked Marker:android.permission.INTERNET is required for API Call java.net.URL.openConnection()Deleted Marker with matching PermissionDeleted Matching MarkersProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@7dc9f6d5isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@4d28bb33isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@727aa818isError:trueProblem Id:67109264Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@4ac4795bisError:trueProblem Id:67109264Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@4caa66dbisError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@316d7596isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@4ad8ef61isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@23322b68isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@23322b68isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@19b0ec2isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@33686c23isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@492bda8cisError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@1873ca86isError:trueProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@6fcdd213isError:trueProblem Id:536871363Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@5613cae4isError:falseProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@77b77e5aisError:trueProblem Id:33554515Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@400229f6isError:true
+
+############ 2013/10/20 03:23:47 ############
+Reading Packages In Project [H:/Courses/MAD/Assignments/Home/5/HW5]
+
+Source File Name 	Line Number 	Method Identifier 	Required Permission 	Source File Path
+
+	PhotoActivity.java	0	java/net/URL->openStream()		android.permission.INTERNET	H:/Courses/MAD/Assignments/Home/5/HW5/bin/classes/com/aneeshgarg/unccphotos/PhotoActivity$LoadImage.class
+
+	WebServiceTask.java	0	java/net/URL->openConnection()		android.permission.INTERNET	H:/Courses/MAD/Assignments/Home/5/HW5/bin/classes/com/aneeshgarg/unccphotos/utility/WebServiceTask.class
+
+	WebServiceTask.java	0	java/net/HttpURLConnection->connect()		android.permission.INTERNET				H:/Courses/MAD/Assignments/Home/5/HW5/bin/classes/com/aneeshgarg/unccphotos/utility/WebServiceTask.class
+
+Adding Line Markers To Project UNCCPhotos[H:/Courses/MAD/Assignments/Home/5/HW5]
+
+ List of Existing Permissions in AndroidManifest.xml
+[android.permission.INTERNET]
+
+ No Other Missing Permissions
+
+ No Redundant PermissionsProblem Id:16777218Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@6a232337isError:trueProblem Id:134217858Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@75213b84isError:trueProblem Id:134217858Marker Type:org.eclipse.jdt.core.problemProblem Arguments:[Ljava.lang.String;@75213b84isError:true

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_5" >
+
+    <ImageView
+        android:id="@+id/row_movie_thumbnail"
+        android:layout_width="@dimen/movie_thumbnail_width"
+        android:layout_height="@dimen/movie_thumbnail_height"
+        android:src="@drawable/poster_not_found" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/row_movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_5"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_5" >
+
+            <TextView
+                android:id="@+id/row_movie_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="2.0"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/row_movie_mpaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="4.0"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <ImageView
+                android:id="@+id/row_movie_critic_image"
+                android:layout_width="@dimen/movie_rating_image_dimen"
+                android:layout_height="@dimen/movie_rating_image_dimen"
+                android:layout_weight="1.0"
+                android:maxHeight="@dimen/movie_rating_image_dimen"
+                android:maxWidth="@dimen/movie_rating_image_dimen"
+                android:src="@drawable/notranked" />
+
+            <ImageView
+                android:id="@+id/row_movie_audience_image"
+                android:layout_width="@dimen/movie_rating_image_dimen"
+                android:layout_height="@dimen/movie_rating_image_dimen"
+                android:layout_weight="1.0"
+                android:src="@drawable/notranked" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

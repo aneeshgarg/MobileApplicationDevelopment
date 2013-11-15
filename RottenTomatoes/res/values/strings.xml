@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rotten Tomatoes</string>
+    <string name="clear_favorites">Clear All Favorites</string>
+    <string name="setup_username">Setup Username</string>
+    <string name="exit">Exit</string>
+
+    <string-array name="main_menu_items">
+        <item>My Favorite Movies</item>
+        <item>Box Office Movies</item>
+        <item>In Theaters Movies</item>
+        <item>Opening Movies</item>
+        <item>Upcoming Movies</item>
+        <item>Favorite Statistics</item>
+    </string-array>
+
+    <string name="title_activity_username">Username Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username_label">Enter Username</string>
+    <string name="set_username_button">Set Username</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_movies">Movies Activity</string>
+    <string name="title_activity_movie">Movie Activity</string>
+    <string name="title_activity_movie_web">MovieWeb Activity</string>
+    <string name="title_activity_statistics">Statistics Activity</string>
+    <string name="audience_label">Audience</string>
+    <string name="critics_label">Critics</string>
+
+</resources>
